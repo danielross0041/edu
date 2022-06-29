@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/custom1.css">
+    <link rel="stylesheet" href="css/bootstrap.min1.css">
+    <link rel="stylesheet" href="css/slick1.css">
+    <link rel="stylesheet" href="css/slick-theme1.css">
+    <link rel="stylesheet" href="css/fancybox.min1.css">
+
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    <header>
+
+      <!-- Begin: Bottom Row -->
+      <div class="bottom-row">
+        
+        <div class="container">
+          <div class="row">
+        <div class="col-md-6">
+          <div class="main">
+          <div class="logo">
+            <img src="images/indeed-logo.png">
+          </div>
+          <nav class="navbar navbar-expand-md navbar-light">
+      
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Profile</a>
+                <a href="#" class="nav-item nav-link">Messages</a>
+                <a href="#" class="nav-item nav-link">Reports</a>
+            </div>
+        </div>
+    </nav>
+        </div>
+        </div>
+        <div class="col-md-6">
+          <div class="help-center">
+          <div class="help">
+            <a href="">Help Center<i class="fa fa-question-circle" aria-hidden="true"></i></a>
+          </div>
+          <div class="academy">
+            <a href="">The Sprout Academy</a>
+          </div>
+          <div class="user-notification">
+            <a href=""><i class="fa fa-bell" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-bell" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-user" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      </div>
+        </div>
+
+      </div>
+      <!-- END: Bottom Row -->  
+
+    </header>
+    <section class="jobs-tab-sec">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="job-tabs">
+          <div class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'jobs')">jobs</button>
+            <button class="tablinks" onclick="openCity(event, 'Candidates')">Candidates</button>
+            <button class="tablinks" onclick="openCity(event, 'Messages')">Messages</button>
+            <button class="tablinks" onclick="openCity(event, 'Compaigns')">Compaigns</button>
+            <button class="tablinks" onclick="openCity(event, 'Virtual-Recruiting-Assistant')">Virtual Recruiting Assistant</button>
+          </div>
+
+          <!-- Tab content -->
+          <!-- <div id="London" class="tabcontent">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+          </div>
+
+          <div id="Paris" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+          </div>
+
+          <div id="Tokyo" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div> -->
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="job-tab-frm">
+          <div class="row">
+            <div class="col-md-12">
+              <form>
+                <input type="text" name="" placeholder="Search Candidates">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <button>Post a job </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="basic-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+        <div class="information">
+          <div class="row">
+      <div class="col-md-6">
+        <div class="job-post">
+          <h4>provide basic information</h4>
+        </div>
+      </div>
+       <div class="col-md-6">
+        <div class="post-img">
+          <img src="images/basicinfo-img.png">
+        </div>
+      </div>
+    </div>
+        </div>
+        <div class="maininfo-sec">
+         <div class="mainn">
+           <div class="country">
+            <p>Country <span class="asterik">*</span></p>
+            <p class="lang"><span>United states</span></p>
+            <a href="javascript:void(0)" class="country-an"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+          </div>
+          <div class="country-opt">
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>UK</option>
+              <option>USA</option>
+              <option>Australia</option>
+              <option>Pakistan</option>
+              <option>India</option>
+            </select>
+          </div>
+         </div>
+          <div class="mainn">
+            <div class="language">
+            <p>Language <span class="asterik">*</span></p>
+            <p class="lang"><span>English</span></p>
+            <a href="javascript:void(0)" class="country-an"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+          </div>
+          <div class="country-opt">
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>English</option>
+              <option>Persian</option>
+              <option>Spanish</option>
+              <option>Urdu</option>
+              <option>Hindi</option>
+            </select>
+          </div>
+          </div>
+          
+          
+          
+          <div class="company">
+             <p>Company Name: <span class="comp-line">Keep The Sprout Academy as the company name</span></p>
+             
+            <p><span>ENglish</span></p>
+            <a href=""><i class="fa fa-pencil" aria-hidden="true"></i></a>
+          </div>
+          <div class="comp-list">
+               <p>Reasons for company name change <span class="imp">*</span></p>
+             </div>
+          <div class="role">
+            <div class="col-md-12">
+             <p>your role in the hiring process</p>
+            <select>
+              <option>Select An Option</option>
+              <option>Enginner</option>
+              <option>Sub Engineer</option>
+            </select>
+          </div>
+        </div>
+        </div>
+        <div class="job-title">
+          <div class="col-md-12">
+            <label>Job title*
+            <input type="text">
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="about-job">
+              <h5>About the Job</h5>
+              <p>we use this information to find the best candidate for this job</p>
+              <div class="about-img">
+                <img src="images/about.png">
+              </div>
+              <h6>Add a job title to get started</h6>
+            </div>
+      </div>
+    </div>
+    </div>
+    </section> 
+    <section class="role-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="start-jobb">
+      <h4>Which option best describe this role location?*</h4>
+      <div class="post-opt">
+        <label class="container">
+          <p><span>one location</span></p>
+<p>job is performed ata a specific address</p>
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+</label>
+      </div>
+       <div class="post-opt">
+        <label class="container">
+          <p><span>Multiple Locations</span></p>
+<p>Job may be performed at multiple sites </p>
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+</label>
+      </div>
+      <div class="post-opt">
+        <label class="container">
+          <p><span>Remote</span></p>
+<p>Job is performed remotely No one site work is required</p>
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+</label>
+      </div>
+      <div class="post-opt">
+        <label class="container">
+          <p><span>On the Road</span></p>
+<p>job require regular travels </p>
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+</label>
+      </div>
+    </div>
+    <div class="main-btn">
+    <div class="row">
+    <div class="col-md-6">
+      <div class="user-btn">
+      <a href="createjob.html" class="back">Back</a>
+    </div>
+    </div>
+    <div class="col-md-6">
+      <div class="user-btnn">
+     
+      <a href="" class="back">Save and Continue</a>
+    </div>
+    </div>
+    </div>
+  </div>
+          </div>
+          <div class="col-md-4">
+            <!-- <div class="col-md-12"> -->
+            <!-- <div class="about-job">
+              <h5>About the Job</h5>
+              <p>we use this information to find the best candidate for this job</p>
+              <div class="about-img">
+                <img src="images/about.png">
+              </div>
+              <h6>Add a job title to get started</h6>
+            </div> -->
+          </div>
+        <!-- </div>
+ -->      </div>
+      </div>
+    </section>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
+

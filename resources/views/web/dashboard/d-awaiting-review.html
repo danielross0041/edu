@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/custom1.css">
+    <link rel="stylesheet" href="css/bootstrap.min1.css">
+    <link rel="stylesheet" href="css/slick1.css">
+    <link rel="stylesheet" href="css/slick-theme1.css">
+    <link rel="stylesheet" href="css/fancybox.min1.css">
+
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    <header>
+
+      <!-- Begin: Bottom Row -->
+      <div class="bottom-row">
+        
+        <div class="container">
+          <div class="row">
+        <div class="col-md-6">
+          <div class="main">
+          <div class="logo">
+            <img src="images/indeed-logo.png">
+          </div>
+          <nav class="navbar navbar-expand-md navbar-light">
+      
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Profile</a>
+                <a href="#" class="nav-item nav-link">Messages</a>
+                <a href="#" class="nav-item nav-link">Reports</a>
+            </div>
+        </div>
+    </nav>
+        </div>
+        </div>
+        <div class="col-md-6">
+          <div class="help-center">
+          <div class="help">
+            <a href="">Help Center<i class="fa fa-question-circle" aria-hidden="true"></i></a>
+          </div>
+          <div class="academy">
+            <a href="">The Sprout Academy</a>
+          </div>
+          <div class="user-notification">
+            <a href=""><i class="fa fa-bell" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-bell" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-user" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      </div>
+        </div>
+
+      </div>
+      <!-- END: Bottom Row -->  
+
+    </header>
+    <section class="jobs-tab-sec">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="job-tabs">
+          <div class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'jobs')">jobs</button>
+            <button class="tablinks" onclick="openCity(event, 'Candidates')">Candidates</button>
+            <button class="tablinks" onclick="openCity(event, 'Messages')">Messages</button>
+            <button class="tablinks" onclick="openCity(event, 'Compaigns')">Compaigns</button>
+            <button class="tablinks" onclick="openCity(event, 'Virtual-Recruiting-Assistant')">Virtual Recruiting Assistant</button>
+          </div>
+
+          <!-- Tab content -->
+          <!-- <div id="London" class="tabcontent">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+          </div>
+
+          <div id="Paris" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+          </div>
+
+          <div id="Tokyo" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div> -->
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="job-tab-frm">
+          <div class="row">
+            <div class="col-md-12">
+              <form>
+                <input type="text" name="" placeholder="Search Candidates">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <button>Post a job </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="review-lead">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="lead-candi">
+          <div class="review-candi">
+          <h4>Lead Three Year Old Teacher</h4>
+          <p>Seminole,FL 33777</p>
+        </div>
+        <div class="review-candi-btn">
+          <a href="" class="open-post">Candidate(31)</a>
+          <a href="" class="close-post">Invite matches(100+)</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="candi-tabs">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="candi-tabs-blk">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'candi-active')">17 Active</button>
+            <button class="tablinks active" onclick="openCity(event, 'candi-awaiting')">7 Awaiting Reviewed</button>
+            <button class="tablinks" onclick="openCity(event, 'candi-reviewed')">9 Reviewed</button>
+            <button class="tablinks" onclick="openCity(event, 'candi-contacting')">1 Contacting</button>
+            <button class="tablinks" onclick="openCity(event, 'candi-hired')">0 Hired</button>
+            <button class="tablinks" onclick="openCity(event, 'candi-rejected')">14 Rejected</button>
+          </div>
+            </div>
+            <div class="col-md-4">
+              <div class="candi-tab-add">
+                <a href="" class="applican-candi">Add applicant</a>
+                <div class="dropdown">
+                                <button class="dropbtn"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+                                <div class="dropdown-content myDropdown">
+                                  <a href="#">Message</a>
+                                  <a href="#">View phone details</a>
+                                  <a href="#">Set up interview</a>
+                                  <a href="#">Delete candidate</a>
+                                </div>
+                              </div>
+              </div>
+            </div>
+          </div>
+          <div id="candi-active" class="tabcontent" style="display: none;">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+          </div>
+
+          <div id="candi-awaiting" class="tabcontent"style="display: block;">
+            <div class="candi-awaiti">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="candi-selec">
+                    <ul>
+                      <li>
+                        <select>
+                          <option>Interested: <span>Everyone</span></option>
+                          <option>Interested: <span>Everyone</span></option>
+                        </select>
+                      </li>
+                      <li>
+                        <select>
+                          <option>Location: <span>Any</span></option>
+                          <option>Location: <span>Any</span></option>
+                        </select>
+                      </li>
+                      <li>
+                        <select>
+                          <option>Screener Question: <span>Any</span></option>
+                          <option>Screener Question: <span>Any</span></option>
+                        </select>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="">
+                        <label>Expiring candidates (0) <a href=""><i class="fa fa-exclamation-circle" aria-hidden="true"></i></a></label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="candi-sort">
+                    <select>
+                      <option>Sort by: <span>Default</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="row candi-every">
+                <div class="col-md-9">
+                  <div class="candi-tble">
+                  <table>
+                    <tr>
+                      <th><input type="checkbox" name=""></th>
+                      <th>Matched to job post</th>
+                      <th>Interested?</th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="candi-hydeia">
+                          <div class="hydeia-inpt">
+                            <input type="checkbox" name="">
+                          </div>
+                          <div class="hydeia-blk">
+                            <h4>Hydeia Gavin</h4>
+                            <h3>Child Development Specialist</h3>
+                            <p>Awaiting Review: Applied on Oct01</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="candi-education">
+                          <div><h3><i class="fa fa-check" aria-hidden="true"></i> Education: high school or equivalent</h3></div>
+                          <div><h5><i class="fa fa-check" aria-hidden="true"></i> Childcare: 1 year</h5></div>
+                          <div><h4><i class="fa fa-times" aria-hidden="true"></i> Teaching:0 years</h4></div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="candi-cross">
+                          <ul>
+
+                            <li><a href=""><i class="fa fa-check" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-question" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-times" aria-hidden="true"></i></a></li>
+                            <!-- <li><a href=""></a></li> -->
+                            <li><div class="dropdown">
+                                <button class="dropbtn"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+                                <div class="dropdown-content myDropdown">
+                                  <a href="#">Message</a>
+                                  <a href="#">View phone details</a>
+                                  <a href="#">Set up interview</a>
+                                  <a href="#">Delete candidate</a>
+                                </div>
+                              </div>
+                              </li>
+                            <!-- <li><button class="dropbtn"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button></li> -->
+                          </ul>
+                          
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="candi-hydeia">
+                          <div class="hydeia-inpt">
+                            <input type="checkbox" name="">
+                          </div>
+                          <div class="hydeia-blk">
+                            <h4>Hydeia Gavin</h4>
+                            <h3>Child Development Specialist</h3>
+                            <p>Awaiting Review: Applied on Oct01</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="candi-education">
+                          <div><h3><i class="fa fa-check" aria-hidden="true"></i> Education: high school or equivalent</h3></div>
+                          <div><h5><i class="fa fa-check" aria-hidden="true"></i> Childcare: 1 year</h5></div>
+                          <div><h4><i class="fa fa-times" aria-hidden="true"></i> Teaching:0 years</h4></div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="candi-cross">
+                          <ul>
+                            <li><a href=""><i class="fa fa-check" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-question" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-times" aria-hidden="true"></i></a></li>
+                             <li><div class="dropdown">
+                                <button class="dropbtn"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+                                <div class="dropdown-content myDropdown">
+                                  <a href="#">Message</a>
+                                  <a href="#">View phone details</a>
+                                  <a href="#">Set up interview</a>
+                                  <a href="#">Delete candidate</a>
+                                </div>
+                              </div>
+                              </li>
+                          </ul>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="candi-hydeia">
+                          <div class="hydeia-inpt">
+                            <input type="checkbox" name="">
+                          </div>
+                          <div class="hydeia-blk">
+                            <h4>Hydeia Gavin</h4>
+                            <h3>Child Development Specialist</h3>
+                            <p>Awaiting Review: Applied on Oct01</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="candi-education">
+                          <div><h3><i class="fa fa-check" aria-hidden="true"></i> Education: high school or equivalent</h3></div>
+                          <div><h5><i class="fa fa-check" aria-hidden="true"></i> Childcare: 1 year</h5></div>
+                          <div><h4><i class="fa fa-times" aria-hidden="true"></i> Teaching:0 years</h4></div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="candi-cross">
+                          <ul>
+                            <li><a href=""><i class="fa fa-check" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-question" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-times" aria-hidden="true"></i></a></li>
+                             <li><div class="dropdown">
+                                <button class="dropbtn"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+                                <div class="dropdown-content myDropdown">
+                                  <a href="#">Message</a>
+                                  <a href="#">View phone details</a>
+                                  <a href="#">Set up interview</a>
+                                  <a href="#">Delete candidate</a>
+                                </div>
+                              </div>
+                              </li>
+                          </ul>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="candi-hydeia">
+                          <div class="hydeia-inpt">
+                            <input type="checkbox" name="">
+                          </div>
+                          <div class="hydeia-blk">
+                            <h4>Hydeia Gavin</h4>
+                            <h3>Child Development Specialist</h3>
+                            <p>Awaiting Review: Applied on Oct01</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="candi-education">
+                          <div><h3><i class="fa fa-check" aria-hidden="true"></i> Education: high school or equivalent</h3></div>
+                          <div><h5><i class="fa fa-check" aria-hidden="true"></i> Childcare: 1 year</h5></div>
+                          <div><h4><i class="fa fa-times" aria-hidden="true"></i> Teaching:0 years</h4></div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="candi-cross">
+                          <ul>
+                            <li><a href=""><i class="fa fa-check" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-question" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-times" aria-hidden="true"></i></a></li>
+                             <li><div class="dropdown">
+                                <button class="dropbtn"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+                                <div class="dropdown-content myDropdown">
+                                  <a href="#">Message</a>
+                                  <a href="#">View phone details</a>
+                                  <a href="#">Set up interview</a>
+                                  <a href="#">Delete candidate</a>
+                                </div>
+                              </div>
+                              </li>
+
+                          </ul>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="candi-hydeia">
+                          <div class="hydeia-inpt">
+                            <input type="checkbox" name="">
+                          </div>
+                          <div class="hydeia-blk">
+                            <h4>Hydeia Gavin</h4>
+                            <h3>Child Development Specialist</h3>
+                            <p>Awaiting Review: Applied on Oct01</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="candi-education">
+                          <div><h3><i class="fa fa-check" aria-hidden="true"></i> Education: high school or equivalent</h3></div>
+                          <div><h5><i class="fa fa-check" aria-hidden="true"></i> Childcare: 1 year</h5></div>
+                          <div><h4><i class="fa fa-times" aria-hidden="true"></i> Teaching:0 years</h4></div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="candi-cross">
+                          <ul>
+                            <li><a href=""><i class="fa fa-check" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-question" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-times" aria-hidden="true"></i></a></li>
+                             <li><div class="dropdown">
+                                <button class="dropbtn"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+                                <div class="dropdown-content myDropdown">
+                                  <a href="#">Message</a>
+                                  <a href="#">View phone details</a>
+                                  <a href="#">Set up interview</a>
+                                  <a href="#">Delete candidate</a>
+                                </div>
+                              </div>
+                              </li>
+                          </ul>
+                        </div>
+                      </td>
+                    </tr>
+                   
+                  </table>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="candi-upcoming">
+                    <h3>Upcoming interviews</h3>
+                    <p>All jobs</p>
+                    <h5><i class="fa fa-calendar-o" aria-hidden="true"></i> No upcoming interviews</h5>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+
+          <div id="candi-reviewed" class="tabcontent"style="display: none;">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p> 
+          </div>
+
+          <div id="candi-contacting" class="tabcontent"style="display: none;">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p> 
+          </div>
+
+          <div id="candi-hired" class="tabcontent"style="display: none;">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p> 
+          </div>
+
+          <div id="candi-rejected" class="tabcontent"style="display: none;">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p> 
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="match=candi">
+  <div class="container-fluid">
+    <div class="match-candi-title">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="candi-title-blk">
+            <img src="images/candi-found-img.jpg">
+            <div class="candi-match-blk">
+              <h4>We found 100 matched candidates for this job</h4>
+              <h3>Get more applicants by inviting them to apply</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="candi-match-btn">
+              <a href="">See all</a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="match-candi-kiara">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="nanny-candi">
+            <h3>Kiara G.</h3>
+            <p>Tampa, FL</p>
+            <h4>Nanny/Babysitter</h4>
+            <p>Self Own Business</p>
+            <h4>Preschool teacher</h4>
+            <p>O2B Kids</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="nanny-candi">
+            <h3>Jessica R.</h3>
+            <p>New Port Richey,FL</p>
+            <h4>Pre-Kindergarten Teacher</h4>
+            <p>Plato Academy</p>
+            <h4>Pre-Kindergarten Teacher</h4>
+            <p>The Montessori at Trinity O..</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="nanny-candi">
+            <h3>Mindie M.</h3>
+            <p>Clearwater, FL</p>
+            <h4>Lead Teacher,Preschool</h4>
+            <p>R'Club Care Community</p>
+            <h4>Customer Service</h4>
+            <p>Toys 'R' Us</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="nanny-candi">
+            <h3>Shakeya M.</h3>
+            <p>Elm City,NC</p>
+            <h4>Site Coordinator</h4>
+            <p>Level Up Youth Program</p>
+            <h4>Lead Teacher</h4>
+            <p>KinderCare Education</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="nanny-candi">
+            <h3>jallisa L.</h3>
+            <p>Saint Peterburg, FL</p>
+            <h4>Mental Health Technician</h4>
+            <p>PEMHS</p>
+            <h4>Teacher</h4>
+            <p>Magnolia Dayschool</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="nanny-candi">
+            <h3>Margaret E.</h3>
+            <p>Dover,FL</p>
+            <h4>3 year old Teacher</h4>
+            <p>First Methodist of Bartow S...</p>
+            <h4>3 year old teacher</h4>
+            <p>The Learning Experience</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
